@@ -13,9 +13,10 @@ public class Main {
         arr[2] = 3;
         for (int x = 0; x < arr.length; x++) {
             if (arr[x] % 2 != 0) {
-                System.out.print((arr[x] + 1) + " ");
-            } else System.out.print(arr[x] + " ");
-         }
+                arr[x] = arr[x] + 1;}
+                else arr[x] = arr[x];
+                System.out.print(arr[x] + " ");
+            }
         }
 
 
